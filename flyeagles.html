@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+	<link href="flyeagles.css" type="text/css" rel="stylesheet">
+	<script src="flyeagles.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>Eagles Analyzed</h1>
+        
+        <a class="btn" href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container">
+       
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <h2>Stats (2017 vs 2018 Comparison)</h2>
+        <hr />
+        Choose Position:
+        <select id="select1" name="select1" onchange="updateStats()">
+          <option value=""></option>
+          <option value="QB">QB</option>
+          <option value="RB">RB</option>
+          <option value="WR">WR</option>
+          
+        </select>
+        <div id="stats">
+        	<p>This is where I think the data could return any stats differentials based on starters from 2017 to 2018. It could be ypg, tds, receptions, completions, anything.</p>
+    	</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>@ I'm sorry you got dragged into this Nolan</p>
+      </div>
+    </div>
+  </body>
+</html>
