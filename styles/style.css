@@ -15,9 +15,9 @@ body {
 }
 
 .header {
-  background: url("https://i.imgur.com/guuGMh5.jpg") no-repeat center center; 
-  background-size: 100% 100%;
-  height: 800px;
+  background: url(https://i.imgur.com/guuGMh5.jpg) no-repeat center center; 
+  background-size: auto;
+  height: 900px;
   text-align: center; 
 }
 
@@ -66,8 +66,12 @@ body {
   height: 80px; 
   width: 100%;
 }
+.objective h2 {
+  margin: 100px auto;
+  margin-bottom: 400px;
+  text-align: right;
 
-
+}
 .main .container {
   margin: 100px auto;
   margin-bottom: 400px;
@@ -85,11 +89,14 @@ body {
   text-align: right; 
 }
 
+
 .footer { 
   background: #000;
   height: 80px; 
   padding-bottom: 50px;
 }
+
+
 
 .footer p { 
   color: #fff;
@@ -106,7 +113,12 @@ table, th, td {
 th, td {
   padding: 10px;
 }
-
+th {
+  background-color: #66b266;
+}
+td {
+  background-color: #cce5cc;
+}
 
 
 
